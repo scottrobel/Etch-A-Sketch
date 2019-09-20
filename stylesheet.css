@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+}
+#grid{
+    width:640px;
+    height:640px;
+    margin:0 auto;
+    
+}
+.buttons
+{
+text-align: center;
+list-style-type: none;
+margin: 3em 0;
+padding:0;
+overflow:hidden;
+}
+.buttons button
+{
+
+width:10%;
+height:3em;
+overflow: hidden;
+text-decoration: none;
+margin:0 2em;
+background-color: white;
+border:none;
+}
+.buttons #reset:hover{
+background-color:black;
+color:white;
+
+}
+.block{
+     
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+.rows{
+    display:flex;
+    flex-direction: row;
+    
+}
+div{
+    display: block;
+}
+.mouseover{
+background-color: black;
+}
+.transition{
+transition-duration: 1s;
+}
